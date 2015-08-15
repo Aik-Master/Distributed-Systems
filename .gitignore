@@ -1,0 +1,92 @@
+orb.db/
+temp/
+tmp/
+log/
+*.log
+*.tmp
+*.bak
+*.swp
+*.kate-swp
+*~
+
+# Java
+*.class
+#*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#JRebel
+rebel.xml
+rebel-remote.xml
+
+
+# OpenCms
+*.zip
+manifest.xml
+
+# JRebel
+rebel.xml
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Build Tools
+bin/
+out/
+target/
+classes/
+git.properties
+
+# OS X
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Structure 101
+s101plugin.state
+
+# Maven
+overlays/
+
+# Ansible
+Gemfile.lock
+
+# Vagrant
+.vagrant
+
+# SASS
+**/.sass-cache
+
+# npm
+node-modules
+
+# Verneinung Project
+#!commons/commons-logback-conf/src/main/webapp/WEB-INF/classes
+#!commons/commons-mongodb-conf/src/main/webapp/WEB-INF/classes
+#!conf/intellij_shared_settings.jar

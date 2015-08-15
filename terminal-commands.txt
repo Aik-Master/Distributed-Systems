@@ -1,0 +1,8 @@
+orbd  -ORBInitialPort 20000
+
+java -jar GGTMonitor.jar monitor -ORBInitialHost localhost -ORBInitialPort 20000
+
+java vsKoordinator.Main 20000 localhost coordinator monitor
+
+java client.Main 20000 localhost coordinator monitor
+
